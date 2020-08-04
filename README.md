@@ -7,3 +7,7 @@ I always used Jupyter notebooks for my work. Nevertheless, servers do prefer pla
 Here below, I put some comments to the notebooks you will find in the repository:
 
 * `DataFromEcondaSalesforce_toPostgresql.ipynb`. It collects data from an existing report in Econda via RestAPI to fill a pandas DataFrame. Similarly, it gets data from a Salesforce .csv report file to fill a second DataFrame. The two are joined and the results are stored in a Postgresql table.
+
+* `DataFrom_ATInternet.ipynb`. Very similar to the previous notebook but now the data are taken from an account of AT Internet.
+
+* `HarvestAPI_Interactions.ipynb`. In my old company Harvest was used to account the amount of hours used for the different projects. The notebook here is a small collection of typical activities: if a new colleague comes to the group copy the activities of an existing account into the new one, rename some prejects, etc.
